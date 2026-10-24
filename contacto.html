@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Seccom Net | Contacto</title>
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="css/styles.css?v=4">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <section class="hero hero--home">
+    <div class="container">
+      <h1>Contacto</h1>
+      <p class="hero__sub">Cuéntanos qué necesitas y te respondemos con una cotización.</p>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="container contacto-grid">
+      <div>
+        <h2>Escríbenos</h2>
+        <ul class="contacto-lista" id="contactoLista"></ul>
+      </div>
+
+      <div>
+        <h2>Solicita una cotización</h2>
+        <form id="formContacto" class="form">
+          <input type="text" placeholder="Nombre" required>
+          <input type="email" placeholder="Correo" required>
+          <input type="tel" placeholder="Teléfono">
+          <textarea rows="4" placeholder="Mensaje"></textarea>
+          <button type="submit">Enviar</button>
+          <p class="form__msg" id="formMsg" hidden>Formulario de demostración: los datos no se envían.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <div id="site-footer"></div>
+
+  <script src="js/productos.js?v=4"></script>
+  <script src="js/layout.js?v=4"></script>
+  <script src="js/contacto.js?v=4"></script>
+</body>
+</html>
